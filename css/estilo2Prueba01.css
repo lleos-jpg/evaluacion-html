@@ -1,0 +1,11 @@
+.buscar {
+    background-color: var(--verde);
+    color: #000;
+    border: none;
+    padding: 0.8em;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+    box-shadow:  0 0 10px #1f3523, 0 0 20px #3d6d45
+}

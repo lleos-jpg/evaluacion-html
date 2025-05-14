@@ -1,0 +1,40 @@
+.icono {
+    width: 200%;
+    max-width: 200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contenedor-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-login {
+    background: var(--fondo-opaco);
+    padding: 2em;
+    border-radius: 1em;
+    backdrop-filter: blur(5px);
+    width: 90%;
+    max-width: 250px;
+    max-height: 750px;
+    text-align: center;
+    border: 3px solid #000000;
+}
+
+.boton {
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.boton:hover {
+    background-color: #333333; 
+}
