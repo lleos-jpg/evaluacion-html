@@ -1,6 +1,6 @@
 .ensalada {
-    width: 200%;
-    max-width: 200px; 
+    width: 100%;
+    max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -61,6 +61,12 @@
     margin-top: -14px;
 }
 
+.flecha {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5em;
+}
+
 .derech {
     font-size: 1.3em;
     margin-top: -5px;
@@ -88,4 +94,12 @@
     padding-top: 2em;
     box-sizing: border-box;
 }
-
+body.fondo {
+    position: relative;
+    background-image: url("../img/descarga.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+}
